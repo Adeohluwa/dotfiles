@@ -38,6 +38,9 @@ nmap :nt :NERDTreeToggle<Cr>                 ":nt       ->   NerdTree
 
 
 
+set rtp+=/home/rabbi/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+set laststatus=2
+set t_Co=256
 
 
 
@@ -56,6 +59,12 @@ Plug 'Valloric/YouCompleteMe'                                          "Completi
 
 Plug 'Raimondi/delimitMate'                                            "Braces completion
 
+Plug 'airblade/vim-gitgutter'                                          "Git diffs inside vim
 
+Plug 'SirVer/ultisnips'                                                "Snippets completion
+
+Plug 'w0rp/ale'                                                        "Async linting
+
+Plug 'tpope/vim-surround'                                              "Braces manipulation
 
 call plug#end()
