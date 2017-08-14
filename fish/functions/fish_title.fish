@@ -1,0 +1,1 @@
+/home/rabbi/.config/fisherman/bobthefish/fish_title.fish

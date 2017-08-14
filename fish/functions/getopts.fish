@@ -1,0 +1,1 @@
+/home/rabbi/.config/fisherman/getopts/getopts.fish

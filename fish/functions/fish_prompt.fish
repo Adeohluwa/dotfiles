@@ -1,1 +1,1 @@
-/home/rabbi/.local/share/omf/themes/bobthefish/fish_prompt.fish
+/home/rabbi/.config/fisherman/bobthefish/fish_prompt.fish

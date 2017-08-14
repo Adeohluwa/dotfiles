@@ -1,3 +1,1 @@
-set fish_greeting "     
-    i heard nothing can kill me 
-    so i tracked down nothing and killed it"
+/home/rabbi/.config/fisherman/bobthefish/fish_greeting.fish
