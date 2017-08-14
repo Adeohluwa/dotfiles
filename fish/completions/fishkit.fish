@@ -1,0 +1,1 @@
+/home/rabbi/.config/fisherman/fishkit/completions/fishkit.fish

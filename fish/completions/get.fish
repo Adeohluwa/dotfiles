@@ -1,0 +1,1 @@
+/home/rabbi/.config/fisherman/get/completions/get.fish
