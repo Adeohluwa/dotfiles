@@ -5,6 +5,16 @@ alias gdinit='sudo rm -rf .git'
 
 alias ga='git add'
 
+alias gc='git checkout'
+
+alias gca='git commit --ammend -m'
+
+alias gba='git branch -a'
+
+alias gbd='git branch -D'
+
+alias gco='git checkout -b'
+
 alias gcmsg='git commit -m'
 
 alias glg='git log'
