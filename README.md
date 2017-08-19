@@ -1,1 +1,1 @@
-![homescreen]('./screenshot.png')
+![homescreen](./screenshot.png)
