@@ -26,7 +26,7 @@ set softtabstop=2                             " Number of spaces per Tab
 
 "Advanced
 set ruler                                     " Show row and column ruler information
-set undolevels=1000                           " Number of undo levels
+set undolevels=100                           " Number of undo levels
 set backspace=indent,eol,start                " Backspace behaviour
 
 
@@ -36,6 +36,7 @@ nmap <C-p> :FZF<Cr>                          "Ctrl + P  ->   FZF
 
 nmap :nt :NERDTreeToggle<Cr>                 ":nt       ->   NerdTree
 
+imap <C-s> <Esc>:w!
 
 
 set rtp+=/home/rabbi/.local/lib/python2.7/site-packages/powerline/bindings/vim/
