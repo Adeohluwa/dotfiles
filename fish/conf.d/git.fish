@@ -23,6 +23,8 @@ alias gra='git remote add origin'
 
 alias gsu='git remote add upstream'
 
+alias gu='git pull'
+
 alias commits='git log --oneline'
 
 alias chkcommits='commits | grep $var'
@@ -38,3 +40,5 @@ alias gpm='git push origin master'
 alias sync='git rebase upstream/master'
 
 alias edl='git rebase -i'
+
+alias unstage='git rm --cached'
