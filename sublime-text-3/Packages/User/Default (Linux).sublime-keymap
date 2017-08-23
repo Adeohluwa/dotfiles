@@ -1,0 +1,11 @@
+[
+	 { "keys": [":", "v", "s"], "command": "create_pane", "args": {"direction": "right", "give_focus": true} },
+     { "keys": [":", "s", "p"], "command": "create_pane", "args": {"direction": "down" , "give_focus": true} },
+     { "keys": [":","b", "d"], "command": "destroy_pane", "args": {"direction": "self"} },
+     { "keys": [":", "t", "u"], "command": "carry_file_to_pane", "args": {"direction": "up"} },
+     { "keys": [":", "t", "r"], "command": "carry_file_to_pane", "args": {"direction": "right"} },
+     { "keys": [":", "t", "d"], "command": "carry_file_to_pane", "args": {"direction": "down"} },
+     { "keys": [":", "t", "l"], "command": "carry_file_to_pane", "args": {"direction": "left"} },
+
+
+]
