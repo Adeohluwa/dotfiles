@@ -7,7 +7,7 @@ alias ga='git add'
 
 alias gc='git checkout'
 
-alias gca='git commit --ammend -m'
+alias gca='git commit --amend -m'
 
 alias gba='git branch -a'
 
@@ -18,6 +18,10 @@ alias gco='git checkout -b'
 alias gcmsg='git commit -m'
 
 alias glg='git log'
+
+alias gra='git remote add origin'
+
+alias gsu='git remote add upstream'
 
 alias commits='git log --oneline'
 
@@ -30,3 +34,7 @@ alias gsts='git status'
 alias gp='git push origin'
 
 alias gpm='git push origin master'
+
+alias sync='git rebase upstream/master'
+
+alias edl='git rebase -i'
