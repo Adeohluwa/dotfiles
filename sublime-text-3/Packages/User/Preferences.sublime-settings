@@ -1,0 +1,21 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
+	"font_size": 10,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"index_exclude_patterns":
+	[
+		"*.log",
+		"node_modules/*"
+	],
+	"overlay_scroll_bars": "enabled",
+	"remember_full_screen": true,
+	"save_on_focus_lost": true,
+	"soda_classic_tabs": true,
+	"soda_folder_icons": true,
+	"theme": "Boxy Ocean.sublime-theme",
+	"translate_tabs_to_spaces": true
+}
