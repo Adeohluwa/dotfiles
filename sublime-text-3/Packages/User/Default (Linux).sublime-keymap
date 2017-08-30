@@ -1,11 +1,16 @@
 [
-	 { "keys": [":", "v", "s"], "command": "create_pane", "args": {"direction": "right", "give_focus": true} },
+      // origami
+  	 { "keys": [":", "v", "s"], "command": "create_pane", "args": {"direction": "right", "give_focus": true} },
      { "keys": [":", "s", "p"], "command": "create_pane", "args": {"direction": "down" , "give_focus": true} },
      { "keys": [":","b", "d"], "command": "destroy_pane", "args": {"direction": "self"} },
+     { "keys": ["delete"], "command": "destroy_pane", "args": {"direction": "self"} },
      { "keys": [":", "t", "u"], "command": "carry_file_to_pane", "args": {"direction": "up"} },
      { "keys": [":", "t", "r"], "command": "carry_file_to_pane", "args": {"direction": "right"} },
      { "keys": [":", "t", "d"], "command": "carry_file_to_pane", "args": {"direction": "down"} },
      { "keys": [":", "t", "l"], "command": "carry_file_to_pane", "args": {"direction": "left"} },
 
+     //terminal
+     { "keys": ["alt+x"], "command": "terminal_view_open", "args": {"cmd": "/bin/bash -l -c /usr/bin/fish", "title": "shell (zsh)"}},
+     {"keys": ["alt+x"], "command": "close", "context": [{"key": "setting.terminal_view"}]},
 
 ]
